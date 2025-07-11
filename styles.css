@@ -1,6 +1,77 @@
 /* A handy list of color names: https://www.w3schools.com/colors/colors_names.asp */
 
 body {
-    background-color:aquamarine
+    background-color:#FFF;
+    font-family: "Raleway Thin", Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 75%;
+    height: 90%;
 }
 
+header {
+  background-color: #fff;
+  padding: 1px;
+  text-align: center;
+  width: 100%;
+}
+
+.top-heading {
+  font-size: 30px;
+  font-weight: 100;
+  color: #777;
+  letter-spacing: 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+li a {
+  display: inline-block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Id to change appearance of nav button with current focus */
+#focused {
+  font-style: italic;
+}
+
+nav {
+  margin-top: 2%;
+  background-color: #fff;
+  height: 100%;
+  width: 15%;
+  float: left;
+}
+
+.info {
+  font-size: large;
+}
+
+article {
+  height: 100%;
+  width: 70%;
+  float: left;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+} 
+
+img {
+  display: block;
+  border-radius: 8px;
+  width: 40%;
+  margin: auto;
+}

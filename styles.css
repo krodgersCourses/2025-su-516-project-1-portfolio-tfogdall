@@ -15,6 +15,7 @@ header {
   width: 100%;
 }
 
+/* Just class to allow for funky formatting in the heading. */
 .top-heading {
   font-size: 30px;
   font-weight: 100;
@@ -43,7 +44,7 @@ li a:hover {
   color: white;
 }
 
-/* Id to change appearance of nav button with current focus */
+/* id to change appearance of nav button with current focus */
 #focused {
   font-style: italic;
 }

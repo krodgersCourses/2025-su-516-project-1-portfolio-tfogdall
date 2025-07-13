@@ -73,6 +73,14 @@ article {
 img {
   display: block;
   border-radius: 8px;
-  width: 40%;
+  width: 60%;
   margin: auto;
+}
+
+table, th, td {
+  border: 1px solid;
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
